@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="radiobutton" >
+        <attr name="TextSize" format="dimension"></attr>
+        <attr name="Text" format="string"></attr>
+        <attr name="TextColor" format="color"></attr>
+        <attr name="LineColor" format="color"></attr>
+        <attr name="LineHeight" format="dimension"></attr>
+        <attr name="isCheck" format="boolean"></attr>
+        <attr name="isCheck_TextSize" format="dimension"></attr>
+        <attr name="isCheck_Text" format="string"></attr>
+        <attr name="isCheck_TextColor" format="color"></attr>
+        <attr name="isCheck_LineColor" format="color"></attr>
+        <attr name="isCheck_LineHeight" format="dimension"></attr>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myradiobutton.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/qeqwe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <com.example.administrator.myradiobutton.MyRadioButton
+            android:id="@+id/r1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:button="@null"
+            app:Text="实时"
+            app:TextColor="#000000"
+            app:LineColor="#aaaaaa"
+            app:LineHeight="2dp"
+            app:TextSize = "15dp"
+            app:isCheck="true"
+            app:isCheck_TextSize="20dp"
+            app:isCheck_Text = "新闻"
+            app:isCheck_TextColor = "#ff8200"
+            app:isCheck_LineColor ="#ff8200"
+            app:isCheck_LineHeight = "5dp"
+            />
+
+        <com.example.administrator.myradiobutton.MyRadioButton
+            android:id="@+id/r2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:button="@null"
+            app:Text="足球"
+            app:TextColor="#000000"
+            app:LineColor="#aaaaaa"
+            app:LineHeight="2dp"
+            app:TextSize = "15dp"
+            app:isCheck="false"
+            app:isCheck_TextSize="20dp"
+            app:isCheck_Text = "体育"
+            app:isCheck_TextColor = "#ff8200"
+            app:isCheck_LineColor ="#ff8200"
+            app:isCheck_LineHeight = "5dp"/>
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>
